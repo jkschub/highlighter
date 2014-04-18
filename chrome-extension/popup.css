@@ -1,0 +1,54 @@
+body {
+  min-width: 150px;
+  overflow-x: hidden;
+  font-family: helvetica, sans-serif;
+}
+
+.box {
+  margin: 2px;
+  border: 1px solid gray;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+
+.red {
+  background-color: #FFABAB;
+}
+
+.orange {
+  background-color: #FFDAAB;
+}
+
+.yellow {
+  background-color: #FEFBAF;
+}
+
+.green {
+  background-color: #DDFFAB;
+}
+
+.blue {
+  background-color: #ABE4FF;
+}
+
+.purple {
+  background-color: #D9ABFF;
+}
+
+.highlight {
+  clear: left;
+  width: 150px;
+  height: 30px;
+  border: 1px solid gray;
+  margin: 2px;
+  text-align: center;
+  line-height: 1.75em;
+  background: #EFEFEF;
+}
+
+.active {
+  /*background: #CCC; */
+  border: 1px solid red;
+}
